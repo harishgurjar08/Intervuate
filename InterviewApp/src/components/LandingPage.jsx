@@ -113,7 +113,7 @@ export default function LandingPage() {
           
           {/* GitHub */}
           <a href="https://github.com/harishgurjar08" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-400 transition-colors">
-            <img src="Yhttps://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-8630395.png?f=webp" alt="GitHub" className="w-5 h-5" />
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-8630395.png?f=webp" alt="GitHub" className="w-5 h-5" />
           GitHub
           </a>
 
