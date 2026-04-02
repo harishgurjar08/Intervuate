@@ -96,14 +96,48 @@ export default function LandingPage() {
         </Link>
       </section>
 
-      {/* Footer - Matched to the dark theme */}
-      <footer className="bg-slate-900 text-slate-500 py-8 px-6 text-center border-t border-slate-700">
-        <p>&copy; {new Date().getFullYear()} AI Interview Coach. All rights reserved.</p>
-        <p className="mt-2">
-          <Link to="#" className="hover:text-cyan-400 mx-2 transition-colors">Privacy Policy</Link> | 
-          <Link to="#" className="hover:text-cyan-400 mx-2 transition-colors">Terms of Service</Link>
-        </p>
-      </footer>
-    </div>
-  );
-}
+      {/* Footer */}
+<footer className="bg-slate-900 text-slate-500 py-8 px-6 text-center border-t border-slate-700">
+  
+  {/* Name line */}
+  <p>
+    Developed by <span className="text-cyan-400 font-medium">Harish Singh</span> 
+    (AI & Data Science Engineer)
+  </p>
+
+  {/* Links with icons */}
+  <div className="mt-3 flex justify-center items-center gap-4">
+    
+    {/* LinkedIn */}
+    <a 
+      href="YOUR_LINKEDIN_URL" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 hover:text-cyan-400 transition-colors"
+    >
+      <img 
+        src="YOUR_LINKEDIN_ICON_URL" 
+        alt="LinkedIn" 
+        className="w-5 h-5"
+      />
+      LinkedIn
+    </a>
+
+    {/* GitHub */}
+    <a 
+      href="YOUR_GITHUB_URL" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 hover:text-cyan-400 transition-colors"
+    >
+      <img 
+        src="YOUR_GITHUB_ICON_URL" 
+        alt="GitHub" 
+        className="w-5 h-5"
+      />
+      GitHub
+    </a>
+
+  </div>
+
+</footer>
